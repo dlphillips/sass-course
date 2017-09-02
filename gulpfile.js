@@ -3,8 +3,9 @@ const gulp = require('gulp'),
 
 gulp.task('styles', () => {
 	return gulp.src('sass/styles.scss')
-	.pipe(sass())
-	.pipe(gulp.dest('./css'));
+		.pipe(sass())
+		.on('error',sass.logError)
+		.pipe(gulp.dest('./css'));
 });
 
 gulp.task('watch', () => {
