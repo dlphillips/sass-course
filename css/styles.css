@@ -49,6 +49,8 @@ h1, h2, h3, h4, h5, h6 {
       max-width: 100%; }
   .article .article__inner {
     background: #FFF; }
+  .article .article--single .content {
+    padding: 50px; }
 
 .content p, .content pre, .content ul, .content ol, .content table, .content img > div {
   margin-bottom: 35px;
@@ -74,6 +76,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .content li {
   margin-bottom: 12px; }
+
+.content img {
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 4px; }
+
+.content pre {
+  background: #5e5e5e;
+  color: white;
+  padding: 50px;
+  border-radius: 4px;
+  border-left: 30px solid #1483FF; }
 
 .byline {
   color: #777;

@@ -76,6 +76,12 @@ h1, h2, h3, h4, h5, h6 {
 
 	}
 
+	.article--single {
+		.content {
+			padding: 50px;
+		}
+	}
+
 }
 
 .content {
@@ -111,6 +117,20 @@ h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 12px;
 	}
 
+	img {
+		margin: 0 auto;
+		max-width: 100%;
+		border-radius: 4px;
+	}
+
+	pre {
+
+		background: darken($text-color, 10%);
+		color: lighten($text-color, 60%);
+		padding: 50px;
+		border-radius: 4px;
+		border-left: 30px solid $primary-color;
+	}
 
 }
 
